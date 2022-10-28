@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "tsBuildInfoFile": "./.buildcache",
+        "target": "es6",
+        "jsx": "react",
+        "module": "commonjs",
+        "lib": [
+            "es6",
+            "dom",
+            "esnext",
+            "esnext.asynciterable"
+        ],
+        "strict": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./src/@types"
+        ],
+        "types": [
+            "react",
+            "jest"
+        ]
+    },
+    "include": [
+        "src"
+    ]
+}

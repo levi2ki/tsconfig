@@ -1,0 +1,26 @@
+{
+  "name": "@levi2ki/tsconfig",
+  "version": "0.0.1",
+  "description": "tsconfig collection repo",
+  "main": "recommended/tsconfig.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levi2ki/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "shared"
+  ],
+  "author": "levi2ki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/levi2ki/tsconfig/issues"
+  },
+  "homepage": "https://github.com/levi2ki/tsconfig#readme",
+  "engines": {
+    "node": ">=14"
+  }
+}
