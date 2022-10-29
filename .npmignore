@@ -3,3 +3,7 @@
 
 .npmrc
 .gitignore
+
+*.tar.gz
+
+.DS_Store

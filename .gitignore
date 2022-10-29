@@ -2,3 +2,7 @@
 .code
 
 .npmrc
+
+*.tar.gz
+
+.DS_Store

@@ -1,0 +1,28 @@
+{
+  "extends": "../base",
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "lib": [
+      "es6",
+      "dom",
+      "esnext",
+      "esnext.asynciterable"
+    ],
+    "strict": true,
+    "strictFunctionTypes": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "types": [
+      "react",
+      "jest"
+    ]
+  }
+}

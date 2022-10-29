@@ -1,0 +1,16 @@
+{
+  "extends": "../base",
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "types": [
+      "jest",
+      "react"
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "@levi2ki/tsconfig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tsconfig collection repo",
-  "main": "recommended/tsconfig.json",
+  "main": "react-recommended/tsconfig.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/levi2ki/tsconfig#readme",
   "engines": {
     "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
