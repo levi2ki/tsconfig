@@ -16,7 +16,7 @@ Extend your config with `extends` keyword.
     "typeRoots": ["./src/@types", "node_modules/@types"]
   },
   "include": ["src"],
-  "exclude": ["src/boot"]
+  "exclude": ["node_modules"]
 }
 ```
 > ❗ Do not forget to define specific options `include`, `exclude`, `baseUrl`, `typeRoots`, `rootDir`, `outDir`, `declarationDir` etc and other path specific options as **they will not be shared** via extends

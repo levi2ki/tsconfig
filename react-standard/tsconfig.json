@@ -14,7 +14,6 @@
       "jest",
       "react"
     ],
-    "tsBuildInfoFile": ".tsbuildinfo",
     "module": "commonjs", // or esnext
     "moduleResolution": "node",
     "sourceMap": true, // or false

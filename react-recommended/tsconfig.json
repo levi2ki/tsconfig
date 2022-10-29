@@ -26,7 +26,6 @@
       "react",
       "jest"
     ],
-    "tsBuildInfoFile": ".tsbuildinfo",
     "moduleResolution": "node",
     "sourceMap": true, // or false
     "resolveJsonModule": true,
