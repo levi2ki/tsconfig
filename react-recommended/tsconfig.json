@@ -1,5 +1,7 @@
 {
-  "extends": "../base",
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended Config",
+
   "compilerOptions": {
     "target": "es6",
     "jsx": "react-jsx",
@@ -23,6 +25,19 @@
     "types": [
       "react",
       "jest"
-    ]
+    ],
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "moduleResolution": "node",
+    "sourceMap": true, // or false
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
